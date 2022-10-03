@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.ceva;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
