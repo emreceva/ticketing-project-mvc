@@ -13,11 +13,11 @@ public class RoleDtoConverter implements Converter<String, RoleDTO> {
 
     RoleService roleService;
 
-
     //injection
     public RoleDtoConverter(RoleService roleService) {
         this.roleService = roleService;
     }
+
     @Override
     public RoleDTO convert(String source) {
         return roleService.findById(Long.parseLong(source));
