@@ -36,4 +36,5 @@ public class RoleServiceImpl extends AbstractMapService<RoleDTO, Long> implement
     public RoleDTO findById(Long id) {
         return super.findById(id);
     }
+
 }
