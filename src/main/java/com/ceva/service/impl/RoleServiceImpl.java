@@ -1,9 +1,7 @@
 package com.ceva.service.impl;
 
 import com.ceva.dto.RoleDTO;
-import com.ceva.dto.UserDTO;
 import com.ceva.service.RoleService;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -30,7 +28,6 @@ public class RoleServiceImpl extends AbstractMapService<RoleDTO, Long> implement
     public void update(RoleDTO object) {
         super.update(object.getId(), object);
     }
-
 
     @Override
     public RoleDTO findById(Long id) {
